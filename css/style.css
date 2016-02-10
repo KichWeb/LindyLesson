@@ -1,0 +1,162 @@
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+p {
+ 	font-size: 16px;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+/*Intro Secrion*/
+
+.intro-section {
+    height: 100%;
+    padding-top: 100px;
+    text-align: center;
+    background: #fff url(../img/bg/photo1.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.img-center {margin:0 auto;}
+
+.overlay {position: absolute; width: 100%; height: 100%; margin-top: -100px; background-color: rgba(0,0,0,0.3)}
+
+
+.arrows {
+	width: 60px;
+	height: 72px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 20px;
+}
+
+.arrows path {
+	stroke: #fff;
+	fill: transparent;
+	stroke-width: 1px;	
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite; 
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {	
+	animation-delay:0s;
+	-webkit-animation-delay:0s; /* Safari 和 Chrome */
+}
+
+
+
+
+
+.about-section {
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background: #eee;
+}
+
+.cherdak-section {
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #fff;
+
+}
+
+
+.cherd2-section {
+	height: auto;
+	padding: 0;
+    text-align: center;
+    background: #eee;
+	background: url(../img/bg/photo2.jpg) no-repeat center;
+	background-size: cover;
+	color: white;
+}
+
+.cherd2-section .container {
+	background-color: rgba(0,0,0,0.3);
+	width: 100%;
+	margin: 0;
+	    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.feat {
+	text-align: center;
+	color: white;
+}
+
+
+.span {height: 20px;}
+
+.lindy-section {
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #eee;
+}
+
+.contact-section {
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background: url(../img/bg/photo2.jpg) no-repeat center;
+}
+
+.contact-section .container {
+	padding-top: 50px;
+    padding-bottom: 50px;
+	background-color: rgba(255,255,255, 0.7);
+}
+
+#contden {
+	text-align: left;
+	border-right: solid 1px black;
+}
+
+.footer-section {
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background: #eee;
+}
